@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Confeti – El gato más adorable</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.png" type="image/png">
+
+    <!-- Estilos -->
     <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Tipografía -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <nav class="navbar">
+        <nav class="navbar" aria-label="Navegación principal">
             <h1 class="logo">Confeti 🐱</h1>
             <ul class="nav-links">
                 <li><a href="index.html">Inicio</a></li>
@@ -21,23 +28,31 @@
         </nav>
     </header>
 
-    <!-- HERO -->
-    <section class="hero">
-        <div class="hero-content">
-            <img src="images/confeti.jpg" alt="Confeti el gato" class="hero-img">
-            <h2>Bienvenido al mundo de Confeti</h2>
-            <p>Un gato con más estilo que muchos humanos.</p>
-            <a href="blog.html" class="btn-primary">Ver aventuras</a>
-        </div>
-    </section>
+    <main>
+        <!-- HERO -->
+        <section class="hero">
+            <div class="hero-content">
+                <img 
+                    src="images/confeti.jpg" 
+                    alt="Confeti el gato" 
+                    class="hero-img"
+                    width="600" 
+                    height="600"
+                >
+                <h2>Bienvenido al mundo de Confeti</h2>
+                <p>Un gato con más estilo que muchos humanos.</p>
+                <a href="blog.html" class="btn-primary">Ver aventuras</a>
+            </div>
+        </section>
 
-    <!-- ÚLTIMAS ENTRADAS -->
-    <section class="latest-posts">
-        <h3>Últimas entradas del blog</h3>
-        <div id="posts-container">
-            <!-- JS insertará aquí las tarjetas -->
-        </div>
-    </section>
+        <!-- ÚLTIMAS ENTRADAS -->
+        <section class="latest-posts">
+            <h3>Últimas entradas del blog</h3>
+            <div id="posts-container">
+                <!-- JS insertará aquí las tarjetas -->
+            </div>
+        </section>
+    </main>
 
     <footer>
         <p>© 2026 Confeti – El gato más adorable del mundo</p>
